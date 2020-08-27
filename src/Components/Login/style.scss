@@ -1,0 +1,47 @@
+.login-container
+{
+width: 100%;
+display: flex;
+justify-content: center;
+
+  .login-content
+  {
+display: flex;
+justify-content: center;
+align-self: center;
+flex-direction: row;
+width: 25%;
+margin-top: 100px;
+padding: 10px;
+flex-direction: column;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .login-text
+  {
+    width: 100%;
+    justify-self: center;
+    text-align: center;
+    padding:10px;
+    }
+  .login-form
+  {
+flex-direction: column;
+margin:10px;
+.login-btn-container
+{
+  margin:10px;
+  display: flex;
+justify-content: space-between;
+}
+.register-link-container
+{
+  width: 100%;
+text-align: center;
+}
+.link-text
+{
+  color: #616fc3;
+
+}
+  }
+}
